@@ -1,0 +1,128 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    color: #007bff;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Form Styles */
+#urlForm {
+    margin: 20px 0;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="url"] {
+    padding: 10px;
+    width: 65%;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #ffcb2e;
+}
+
+/* Results Section Styles */
+#imageAnalyzer {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 70%; /* Reduced width */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Additional Content Styles */
+/* Customize colors and styles as needed */
+h2 {
+    color: #007bff;
+}
+
+pre {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
+/* Add your additional styles here */
+
+/* External CSS styles for the Meta Tag Analyzer box */
+
+.meta-box {
+    border: 2px solid #9ea2a4;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: #f7f7f7;
+}
+
+.meta-box h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+#urlForm {
+    margin-top: 20px;
+}
+
+#urlForm label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#urlForm input[type="url"] {
+    width: 72%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+#urlForm button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#urlForm button:hover {
+    background-color: #ffcb2e;
+}
+
+#metaAnalyzer {
+    margin-top: 20px;
+    width: 77%;
+}
